@@ -30,7 +30,7 @@ jobs:
         with:
           name: results
       - name: comment PR
-        uses: machine-learning-apps/pr-comment@master
+        uses: luismendezescobar/pr-comment@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
